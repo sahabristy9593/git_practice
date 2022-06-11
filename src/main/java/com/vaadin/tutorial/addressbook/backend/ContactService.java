@@ -14,16 +14,15 @@ import java.util.logging.Logger;
 // Backend service class. This is just a typical Java backend implementation
 // class and nothing Vaadin specific.
 public class ContactService {
-
     // Create dummy data by randomly combining first and last names
     static String[] fnames = { "Peter", "Alice", "John", "Mike", "Olivia",
             "Nina", "Alex", "Rita", "Dan", "Umberto", "Henrik", "Rene", "Lisa",
             "Linda", "Timothy", "Daniel", "Brian", "George", "Scott",
-            "Jennifer" };
+            "Jennifer", "Victor", "Amit", "Flavine", "Precious", "Barack", "Laxmikant", "Yamuna" };
     static String[] lnames = { "Smith", "Johnson", "Williams", "Jones",
             "Brown", "Davis", "Miller", "Wilson", "Moore", "Taylor",
             "Anderson", "Thomas", "Jackson", "White", "Harris", "Martin",
-            "Thompson", "Young", "King", "Robinson" };
+            "Thompson", "Young", "King", "Robinson", "Kumar", "junior", "Harris", "Kent", "Obama", "Wagh", "Ganga" };
 
     private static ContactService instance;
 
